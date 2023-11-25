@@ -1,0 +1,52 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        {
+            "@base": "did:web:lvilleblockchain.com"
+        }
+    ],
+    "id": "did:web:lvilleblockchain.com",
+    "verificationMethod": [
+        {
+            "id": "#AafqfIeIv3ET5fUzRPSBfumZqzjIiQOVE42q_GdsBSg",
+            "controller": "did:web:lvilleblockchain.com",
+            "type": "JsonWebKey2020",
+            "publicKeyJwk": {
+                "kty": "OKP",
+                "crv": "Bls12381G1",
+                "x": "kKR6If21SgEtImKBdVn97TSd1tBg3EM5LiskUcFqoCfqQOQMLbNecM6_mtc1qFYh"
+            }
+        },
+        {
+            "id": "#MWTNaCeUSm2S8-M63wFY_6Om8w5-UK2R3G4X7F_DDWg",
+            "controller": "did:web:lvilleblockchain.com",
+            "type": "JsonWebKey2020",
+            "publicKeyJwk": {
+                "kty": "OKP",
+                "crv": "Bls12381G2",
+                "x": "jNs-HJZuvrIS4fd2nwBEsGc7GTdPG1zEStbmJBV3nrOiTwdc1jlAz6RJUkSTjO-5A5p2xZA_W3XavgaW8CFdesA34XxZjanPYOEz37DKPGtCs4DU2ippGLcW9Zh3DCTI"
+            }
+        },
+        {
+            "id": "#ooBsdA1r-15aorf-shmc_y2ag1-oTIiaBPELg1988fk",
+            "controller": "did:web:lvilleblockchain.com",
+            "type": "JsonWebKey2020",
+            "publicKeyJwk": {
+                "kty": "OKP",
+                "crv": "Ed25519",
+                "x": "KrPiVivgvqBL1G70nkUDKMLqXpgrYG0MUUCbANAXwtI"
+            }
+        }
+    ],
+    "authentication": [
+        "#AafqfIeIv3ET5fUzRPSBfumZqzjIiQOVE42q_GdsBSg",
+        "#MWTNaCeUSm2S8-M63wFY_6Om8w5-UK2R3G4X7F_DDWg",
+        "#ooBsdA1r-15aorf-shmc_y2ag1-oTIiaBPELg1988fk"
+    ],
+    "assertionMethod": [
+        "#AafqfIeIv3ET5fUzRPSBfumZqzjIiQOVE42q_GdsBSg",
+        "#MWTNaCeUSm2S8-M63wFY_6Om8w5-UK2R3G4X7F_DDWg",
+        "#ooBsdA1r-15aorf-shmc_y2ag1-oTIiaBPELg1988fk"
+    ]
+}
